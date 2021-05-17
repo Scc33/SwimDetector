@@ -1,0 +1,16 @@
+item {
+    name: "freestyle"
+    id: 1
+}
+item {
+    name: "backstroke"
+    id: 2
+}
+item {
+  name: "butterfly"
+    id: 3
+}
+item {
+    name: "breaststroke"
+    id: 4
+}
