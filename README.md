@@ -6,6 +6,8 @@ An object detector that can recognize what swimming stroke is being performed fr
 
 Download the data from my [Kaggle](www.kaggle.com/dataset/3122f8d0287f6094b28d66e36b216b3a278eae858b6c7cb10f821010825397a2) repository. Additional images can be added first by downsizing using transform_image_resolution.py and labeled using [labelImg](https://github.com/tzutalin/labelImg). The data from Kaggle comes with the CSVs already made. Adding additional data will create new XML files that have to be converted to CSV using xml_to_csv.py. Image transformation and xml to csv scripts come from Gilbert Tanners [Creating your own object detector](https://towardsdatascience.com/creating-your-own-object-detector-ad69dda69c85) post on towards data science.
 
+Dataset on Kaggle: www.kaggle.com/dataset/3122f8d0287f6094b28d66e36b216b3a278eae858b6c7cb10f821010825397a2
+
 ### Label Map
 
 The labelmap.pbtxt file contains the information on the classes. There are four classes one for each stroke: freestyle, backstroke, butterfly, and breaststroke. Below is the example for freestyle.
